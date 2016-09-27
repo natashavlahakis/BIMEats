@@ -1,0 +1,170 @@
+body {
+  padding-top: 60px; }
+
+.h5,
+h5,
+.h6,
+.orders thead.thead-default th,
+h6 {
+  letter-spacing: 0.1rem; }
+
+.h5,
+.h6,
+.orders thead.thead-default th {
+  font-family: "Oswald", sans-serif; }
+
+/*
+ * Navbar
+ */
+.navbar {
+  border-radius: 0; }
+
+/*
+ * Display
+ */
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  font-family: "Varela Round", sans-serif; }
+
+.bg-white {
+  background-color: #fff; }
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%; }
+
+body {
+  /* Margin bottom by footer height */
+  margin-bottom: 60px; }
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1000;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  line-height: 60px;
+  /* Vertically center the text there */
+  background-color: #f5f5f5;
+  color: rgba(255, 255, 255, 0.5) !important; }
+
+/* Inline List Footer
+-------------------------------------------------- */
+.list-inline {
+  margin-bottom: 0px; }
+
+.list-inline a {
+  color: rgba(255, 255, 255, 0.5); }
+
+/*
+ * Search
+ */
+.search {
+  background-color: #ccc;
+  background-image: url(../i/hero.jpg);
+  background-size: cover;
+  border-radius: 0;
+  color: #fff;
+  margin-bottom: 0; }
+
+/*
+ * Download
+ */
+.download {
+  background-color: #fff; }
+
+/*
+ * Display
+ */
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+  font-family: "Varela Round", sans-serif; }
+
+/*
+ * Sidebar
+ */
+/* Hide for mobile, show later */
+.sidebar {
+  display: none; }
+
+@media (min-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 51px;
+    bottom: 0;
+    left: 0;
+    z-index: 900;
+    display: block;
+    padding-top: 3px;
+    padding-left: 0px;
+    padding-right: 0px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    /* Scrollable contents if viewport is shorter than content. */
+    border-right: 1px solid #eee; } }
+/*
+ * Main content
+ */
+.main {
+  padding: 20px;
+  background: #e4e4e4;
+  min-height: calc(100vh - 7rem); }
+
+@media (min-width: 768px) {
+  .main {
+    padding-right: 40px;
+    padding-left: 40px; } }
+/*
+ * Address
+ */
+.address {
+  background: #fff; }
+  .address p {
+    color: #707070; }
+  .address h2 {
+    color: #1F4BA5;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase; }
+  .address i {
+    color: #B2B2B2; }
+
+/*
+ * Orders
+ */
+.orders {
+  background: #fff; }
+  .orders thead.thead-default th {
+    background-color: #F2F2F2;
+    color: #222222; }
+    .orders thead.thead-default th button {
+      font-family: "Varela Round", sans-serif; }
+  .orders tbody.tbody-default th {
+    color: #B2B2B2;
+    font-weight: 400; }
+
+/*
+ * Nav Pills
+ */
+.nav-stacked .nav-item + .nav-item {
+  margin-top: 0px; }
+
+.nav-pills .nav-link.active,
+.nav-pills .nav-link.active:focus,
+.nav-pills .nav-link.active:hover,
+.nav-pills .nav-item.open .nav-link,
+.nav-pills .nav-item.open .nav-link:focus,
+.nav-pills .nav-item.open .nav-link:hover {
+  border-right: 10px solid yellow; }
+
+.nav-pills .nav-link {
+  border-bottom: 1px solid #F2F2F2; }
+
+.nav-item a {
+  color: #222222; }
