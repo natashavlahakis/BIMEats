@@ -20,6 +20,34 @@
   background-color: #fff;
 }
 
+.app-preview {
+  display: block;
+  margin-bottom: -70px;
+  overflow: hidden;
+}
+
+.button {
+  display: inline-block;
+}
+
+.buy {
+  background-image: url(../i/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.appstore {
+  width: 135px;
+  height: 40px;
+  background-position: -5px -5px;
+}
+
+.googleplay {
+  width: 126px;
+  height: 40px;
+  background-position: -150px -5px;
+}
+
 
 /*
  * Display
