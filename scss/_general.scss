@@ -1,3 +1,16 @@
+// Grayscale and brand colors for use across Bootstrap.
+$gray-dark: #222222;
+$gray: #707070;
+$gray-light: #B2B2B2;
+$gray-lighter: #E4E4E4;
+$gray-lightest: #F2F2F2;
+$brand-primary: #1F4BA5;
+$brand-success: #5cb85c;
+$brand-info: #5bc0de;
+$brand-warning: #FFCB3C;
+$brand-danger: #FE4F20;
+$brand-inverse: $gray-dark;
+
 body {
   padding-top: 60px;
 }
@@ -21,6 +34,7 @@ h6 {
 
 .navbar {
   border-radius: 0;
+  border-bottom: 1px solid $gray-lighter;
 }
 
 
