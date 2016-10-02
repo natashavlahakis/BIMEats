@@ -10,7 +10,6 @@ $brand-info: #5bc0de;
 $brand-warning: #FFCB3C;
 $brand-danger: #FE4F20;
 $brand-inverse: $gray-dark;
-
 body {
   padding-top: 60px;
 }
@@ -47,4 +46,19 @@ h6 {
 .display-3,
 .display-4 {
   font-family: "Varela Round", sans-serif;
+}
+
+
+/*
+ * Forms
+ */
+
+.form-control {
+  background-color: $gray-lightest;
+}
+
+input {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 0.75rem!important;
 }

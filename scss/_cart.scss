@@ -1,7 +1,54 @@
-h1,
-h2,
-h3,
-h4 {
-  font-family: "Varela Round", sans-serif;
-  font-weight: 400;
+.cart {
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: "Varela Round", sans-serif;
+    font-weight: 400;
+  }
+  .table {
+    th {
+      color: $gray-light;
+      font-weight: 400;
+      &:first-child {
+        width: 50%;
+      }
+      &:last-child {
+        width: 10%;
+      }
+    }
+    .size {
+      font-family: "PT Serif", serif;
+      font-style: italic;
+      color: $gray-light;
+    }
+    .price,
+    .amount,
+    .cost {
+      font-family: "Oswald", sans-serif;
+      font-weight: 700;
+    }
+    .delete {
+      color: $gray-light;
+    }
+  }
+  .media-heading {
+    color: $gray-dark;
+  }
+  .total {
+    h3 {
+      color: $gray-light;
+      font-family: "PT Serif", serif;
+      font-style: italic;
+      font-size: 1.125rem;
+      small {
+        color: $gray-dark;
+        font-family: "Oswald", sans-serif;
+        font-style: normal;
+        font-size: 1.5rem;
+        font-weight: 700;
+        margin-left: 0.75em;
+      }
+    }
+  }
 }

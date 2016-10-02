@@ -27,7 +27,11 @@ Roboto,
 "Helvetica Neue",
 Arial,
 sans-serif;
-//$font-family-serif:      Georgia, "Times New Roman", Times, serif;
+$font-family-serif: "PT Serif",
+Georgia,
+"Times New Roman",
+Times,
+serif;
 //$font-family-monospace:  Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 //$font-family-base:       $font-family-sans-serif;
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
@@ -69,8 +73,8 @@ $border-radius-sm: 2rem;
 // Tables
 //
 // Customizes the `.table` component with basic values, each used across all table variations.
-$table-cell-padding: 1.25rem !default;
-$table-sm-cell-padding: .75rem !default;
+$table-cell-padding: 1.25rem;
+$table-sm-cell-padding: .75rem;
 // Buttons
 //
 // For each of Bootstrap's buttons, define text, background and border color.

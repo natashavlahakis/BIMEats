@@ -29,6 +29,17 @@ h6 {
 .display-4 {
   font-family: "Varela Round", sans-serif; }
 
+/*
+ * Forms
+ */
+.form-control {
+  background-color: #F2F2F2; }
+
+input {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 0.75rem !important; }
+
 .bg-white {
   background-color: #fff; }
 
@@ -160,6 +171,12 @@ body {
     color: #B2B2B2; }
 
 /*
+ * Payments
+ */
+.payments .media-object {
+  border: 2px solid #E4E4E4; }
+
+/*
  * Orders
  */
 .orders {
@@ -193,9 +210,41 @@ body {
 .nav-item a {
   color: #222222; }
 
-h1,
-h2,
-h3,
-h4 {
+.cart h1,
+.cart h2,
+.cart h3,
+.cart h4 {
   font-family: "Varela Round", sans-serif;
   font-weight: 400; }
+.cart .table th {
+  color: #B2B2B2;
+  font-weight: 400; }
+  .cart .table th:first-child {
+    width: 50%; }
+  .cart .table th:last-child {
+    width: 10%; }
+.cart .table .size {
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  color: #B2B2B2; }
+.cart .table .price,
+.cart .table .amount,
+.cart .table .cost {
+  font-family: "Oswald", sans-serif;
+  font-weight: 700; }
+.cart .table .delete {
+  color: #B2B2B2; }
+.cart .media-heading {
+  color: #222222; }
+.cart .total h3 {
+  color: #B2B2B2;
+  font-family: "PT Serif", serif;
+  font-style: italic;
+  font-size: 1.125rem; }
+  .cart .total h3 small {
+    color: #222222;
+    font-family: "Oswald", sans-serif;
+    font-style: normal;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 0.75em; }

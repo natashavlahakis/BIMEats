@@ -25,7 +25,7 @@
     </div>
     <nav class="navbar navbar-light navbar-static-top bg-white">
       <div class="container">
-        <a class="navbar-brand" href="index.html">BIMEats</a>
+        <a class="navbar-brand" href="index.html"><img src="a/i/logo.png" alt="BIMEats"></a>
         <ul class="nav navbar-nav pull-xs-right">
           <li class="nav-item">
             <button type="button" class="btn btn-primary">Get App</button>
@@ -46,13 +46,13 @@
   </div>
 
   <!-- Begin page content -->
-  <main>
+  <main class="cart">
     <div class="container m-y-3">
-      <button type="button" class="btn btn-secondary pull-md-right">Continue shopping</button>
+      <button type="button" class="btn btn-outline-primary pull-md-right">Continue shopping</button>
       <h1 class="display-4">Your cart</h1>
     </div>
     <div class="container m-y-3">
-      <table class="table cart">
+      <table class="table">
         <thead>
           <tr>
             <th>Product</th>
@@ -68,49 +68,49 @@
             <th scope="row">
               <div class="media">
                 <a class="media-left" href="#">
-                  <img class="media-object" src="http://placehold.it/100x100" alt="Generic placeholder image">
+                  <img class="media-object" src="http://lorempixel.com/output/food-q-c-100-100-3.jpg" alt="Generic placeholder image">
                 </a>
                 <div class="media-body">
                   <h2 class="small media-heading">Napoleon of Alaskan King Crab</h2>
-                  <p class="small">Le Napoleon de Crabe de l Alaska et Avocat , Petite Herbettes Sauvages</p>
+                  <p class="small media-description">Le Napoleon de Crabe de l Alaska et Avocat , Petite Herbettes Sauvages</p>
                 </div>
               </div>
             </th>
-            <td>M</td>
-            <td>26</td>
-            <td>
+            <td class="size">M</td>
+            <td class="price">26</td>
+            <td class="amount">
               <form>
                 <div class="form-group">
                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="2">
                 </div>
               </form>
             </td>
-            <td>$52</td>
-            <td><i class="icon-cancel"></i></td>
+            <td class="cost">$52</td>
+            <td class="delete"><i class="icon-cancel"></i></td>
           </tr>
           <tr>
             <th scope="row">
               <div class="media">
                 <a class="media-left" href="#">
-                  <img class="media-object" src="http://placehold.it/100x100" alt="Generic placeholder image">
+                  <img class="media-object" src="http://lorempixel.com/output/food-q-c-100-100-2.jpg" alt="Generic placeholder image">
                 </a>
                 <div class="media-body">
                   <h2 class="small media-heading">Smoked Salmon</h2>
-                  <p class="small media-heading">L'Assiette de Saumon Fumé et Petites Garnitures</p>
+                  <p class="small media-description">L'Assiette de Saumon Fumé et Petites Garnitures</p>
                 </div>
               </div>
             </th>
-            <td>S</td>
-            <td>24</td>
-            <td>
+            <td class="size">S</td>
+            <td class="price">24</td>
+            <td class="amount">
               <form>
                 <div class="form-group">
                   <input type="text" class="form-control" id="formGroupExampleInput" placeholder="1">
                 </div>
               </form>
             </td>
-            <td>$24</td>
-            <td><i class="icon-cancel"></i></td>
+            <td class="cost">$24</td>
+            <td class="delete"><i class="icon-cancel"></i></td>
           </tr>
         </tbody>
       </table>
@@ -122,8 +122,8 @@
             <input type="text" class="form-control" placeholder="Promo code">
           </form>
         </div>
-        <div class="col-xs-3 offset-xs-5">
-          <h3>Total<small>$76</small></h3>
+        <div class="total col-xs-3 offset-xs-5">
+          <h3>Total: <small>$76</small></h3>
         </div>
         <div class="col-xs-2">
           <button type="button" class="btn btn-primary">Next step</button>
