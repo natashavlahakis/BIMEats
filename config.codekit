@@ -83,17 +83,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/a\/i\/download.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 7634,
-		"inputAbbreviatedPath": "\/a\/i\/download.png",
-		"outputAbbreviatedPath": "\/a\/i\/download.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/a\/i\/hero.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -116,13 +105,57 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/a\/i\/mastercard.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8536,
+		"inputAbbreviatedPath": "\/a\/i\/mastercard.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/mastercard.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/mastercard.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13104,
+		"inputAbbreviatedPath": "\/a\/i\/mastercard.png",
+		"outputAbbreviatedPath": "\/a\/i\/mastercard.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/a\/i\/spritesheet.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 39330,
+		"initialSize": 7634,
 		"inputAbbreviatedPath": "\/a\/i\/spritesheet.png",
 		"outputAbbreviatedPath": "\/a\/i\/spritesheet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/visa.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 5791,
+		"inputAbbreviatedPath": "\/a\/i\/visa.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/visa.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/visa.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 14858,
+		"inputAbbreviatedPath": "\/a\/i\/visa.png",
+		"outputAbbreviatedPath": "\/a\/i\/visa.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

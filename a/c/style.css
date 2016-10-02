@@ -99,7 +99,7 @@ body {
 .googleplay {
   width: 126px;
   height: 40px;
-  background-position: -150px -5px; }
+  background-position: -5px -55px; }
 
 /*
  * Display
@@ -157,24 +157,6 @@ body {
     text-transform: uppercase; }
   .address i {
     color: #B2B2B2; }
-
-/*
- * Payment
- */
-.cards {
-  background-image: url(../i/spritesheet.png);
-  background-repeat: no-repeat;
-  display: block; }
-
-.mastercard {
-  width: 167px;
-  height: 100px;
-  background-position: -5px -55px; }
-
-.visa {
-  width: 309px;
-  height: 100px;
-  background-position: -286px -5px; }
 
 /*
  * Orders

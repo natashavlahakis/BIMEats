@@ -80,29 +80,6 @@ $brand-inverse: $gray-dark;
 
 
 /*
- * Payment
- */
-
-.cards {
-  background-image: url(../i/spritesheet.png);
-  background-repeat: no-repeat;
-  display: block;
-}
-
-.mastercard {
-  width: 167px;
-  height: 100px;
-  background-position: -5px -55px;
-}
-
-.visa {
-  width: 309px;
-  height: 100px;
-  background-position: -286px -5px;
-}
-
-
-/*
  * Orders
  */
 
