@@ -1,0 +1,1 @@
+$(document).ready(function(){"use strict";var t=$('input[name="date"]'),o=$(".bootstrap-iso form").length>0?$(".bootstrap-iso form").parent():"body",a={format:"mm/dd/yyyy",container:o,todayHighlight:!0,autoclose:!0};t.datepicker(a)});

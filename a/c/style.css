@@ -267,3 +267,31 @@ body {
 .driver .register p,
 .driver .register li {
   color: #B2B2B2; }
+
+.checkout {
+  /* Customize container */ }
+  @media (min-width: 48em) {
+    .checkout .container.narrow {
+      max-width: 46rem; } }
+  .checkout textarea.form-control {
+    border-radius: 0.5rem; }
+  .checkout h2 {
+    color: #B2B2B2;
+    text-transform: uppercase; }
+  .checkout dt {
+    color: #B2B2B2; }
+  .checkout .total h3 {
+    color: #B2B2B2;
+    font-family: "PT Serif", serif;
+    font-style: italic;
+    font-size: 1.125rem;
+    font-weight: normal; }
+    .checkout .total h3 small {
+      color: #222222;
+      font-family: "Oswald", sans-serif;
+      font-style: normal;
+      font-size: 1.5rem;
+      font-weight: 700;
+      margin-left: 0.75em; }
+  .checkout .table .qty, .checkout .table .size {
+    color: #B2B2B2; }
