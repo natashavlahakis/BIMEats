@@ -355,11 +355,19 @@ body {
     border: 0; }
     .restaurants-list .card .card-title {
       color: #222222;
-      font-size: 1.5rem; }
+      font-size: 1.125rem;
+      letter-spacing: normal; }
+      .restaurants-list .card .card-title span {
+        color: #B2B2B2;
+        font-size: 2em; }
     .restaurants-list .card .card-subtitle {
       font-family: "Varela Round", sans-serif;
-      font-size: 1.125rem;
-      font-weight: 400; }
+      font-size: 1rem;
+      font-weight: 400;
+      letter-spacing: normal; }
+      .restaurants-list .card .card-subtitle span {
+        font-family: "Oswald", sans-serif;
+        font-weight: 700; }
 
 /*! =========================================================
  * bootstrap-slider.js
