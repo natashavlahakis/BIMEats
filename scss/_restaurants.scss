@@ -1,0 +1,90 @@
+.restaurants-list {
+  /* Hide for mobile, show later */
+  .test {
+    background: $gray-lightest;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-right: 1px solid #eee;
+    font-size: 0.75em;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  h4 {
+    color: $gray-light;
+    font-family: "Varela Round", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 300;
+  }
+  .rating {
+    float: left;
+    &:not(:checked) {
+      > {
+        input {
+          position: absolute;
+          top: -9999px;
+          clip: rect(0, 0, 0, 0);
+        }
+        label {
+          float: right;
+          width: 1em;
+          padding: 0 .1em;
+          overflow: hidden;
+          white-space: nowrap;
+          cursor: pointer;
+          font-size: 200%;
+          line-height: 1.2;
+          color: #ddd;
+          &:before {
+            content: '★ ';
+          }
+        }
+      }
+      > label:hover {
+        color: gold;
+        ~ label {
+          color: gold;
+        }
+      }
+    }
+    > input:checked ~ label {
+      color: $brand-warning;
+    }
+    > {
+      input:checked {
+        + label:hover,
+        ~ label:hover {
+          color: $brand-warning;
+          ~ label {
+            color: $brand-warning;
+          }
+        }
+      }
+      label {
+        &:hover ~ input:checked ~ label {
+          color: $brand-warning;
+        }
+        &:active {
+          position: relative;
+          top: 2px;
+          left: 2px;
+        }
+      }
+    }
+  }
+  .card {
+    border-radius: 0;
+    border: 0;
+    .card-title {
+      color: $gray-dark;
+      font-size: 1.5rem;
+    }
+    .card-subtitle {
+      font-family: "Varela Round", sans-serif;
+      font-size: 1.125rem;
+      font-weight: 400;
+    }
+  }
+  @media (min-width: 768px) {}
+}

@@ -12,3 +12,10 @@ $(document).ready(function () {
     };
   date_input.datepicker(options);
 });
+
+$(document).ready(function () {
+
+  /* Example 2 */
+  "use strict";
+  $("#ex2").slider({});
+});
