@@ -1,0 +1,76 @@
+.rating {
+  float: left;
+  &:not(:checked) {
+    > {
+      input {
+        position: absolute;
+        top: -9999px;
+        clip: rect(0, 0, 0, 0);
+      }
+      label {
+        font-family: 'icomoon';
+        float: right;
+        width: 1.7rem;
+        padding: 0 .1rem;
+        overflow: hidden;
+        white-space: nowrap;
+        cursor: pointer;
+        font-size: 180%;
+        line-height: 1.2;
+        color: #ddd;
+        &:before {
+          content: '\e931 ';
+        }
+      }
+    }
+    > label:hover {
+      color: gold;
+      ~ label {
+        color: gold;
+      }
+    }
+  }
+  > input:checked ~ label {
+    color: $brand-warning;
+  }
+  > {
+    input:checked {
+      + label:hover,
+      ~ label:hover {
+        color: $brand-warning;
+        ~ label {
+          color: $brand-warning;
+        }
+      }
+    }
+    label {
+      &:hover ~ input:checked ~ label {
+        color: $brand-warning;
+      }
+      &:active {
+        position: relative;
+        top: 2px;
+        left: 2px;
+      }
+    }
+  }
+}
+
+.reviews {
+  float: left;
+  label {
+    font-family: 'icomoon';
+    float: right;
+    width: 2.4rem;
+    padding: 0 .5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 160%;
+    line-height: 1.2;
+    color: $brand-warning;
+    &:before {
+      content: '\e931 ';
+    }
+  }
+}

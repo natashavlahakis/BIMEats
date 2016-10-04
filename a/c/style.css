@@ -299,8 +299,9 @@ body {
 
 .restaurants-list {
   /* Hide for mobile, show later */ }
-  .restaurants-list .test {
+  .restaurants-list .filters {
     background: #F2F2F2;
+    height: 100%;
     padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -313,43 +314,6 @@ body {
     font-family: "Varela Round", sans-serif;
     font-size: 0.75rem;
     font-weight: 300; }
-  .restaurants-list .rating {
-    float: left; }
-    .restaurants-list .rating:not(:checked) > input {
-      position: absolute;
-      top: -9999px;
-      clip: rect(0, 0, 0, 0); }
-    .restaurants-list .rating:not(:checked) > label {
-      font-family: 'icomoon';
-      float: right;
-      width: 1.7rem;
-      padding: 0 .1rem;
-      overflow: hidden;
-      white-space: nowrap;
-      cursor: pointer;
-      font-size: 180%;
-      line-height: 1.2;
-      color: #ddd; }
-      .restaurants-list .rating:not(:checked) > label:before {
-        content: '\e931 '; }
-    .restaurants-list .rating:not(:checked) > label:hover {
-      color: gold; }
-      .restaurants-list .rating:not(:checked) > label:hover ~ label {
-        color: gold; }
-    .restaurants-list .rating > input:checked ~ label {
-      color: #FFCB3C; }
-    .restaurants-list .rating > input:checked + label:hover,
-    .restaurants-list .rating > input:checked ~ label:hover {
-      color: #FFCB3C; }
-      .restaurants-list .rating > input:checked + label:hover ~ label,
-      .restaurants-list .rating > input:checked ~ label:hover ~ label {
-        color: #FFCB3C; }
-    .restaurants-list .rating > label:hover ~ input:checked ~ label {
-      color: #FFCB3C; }
-    .restaurants-list .rating > label:active {
-      position: relative;
-      top: 2px;
-      left: 2px; }
   .restaurants-list .card {
     border-radius: 0;
     border: 0; }
@@ -382,21 +346,121 @@ body {
       .restaurants-list .card .card-subtitle span {
         font-family: "Oswald", sans-serif;
         font-weight: 700; }
-  .restaurants-list .reviews {
-    float: left; }
-    .restaurants-list .reviews label {
-      font-family: 'icomoon';
-      float: right;
-      width: 2.4rem;
-      padding: 0 .5rem;
-      overflow: hidden;
-      white-space: nowrap;
-      cursor: pointer;
-      font-size: 160%;
-      line-height: 1.2;
+
+.menu .restaurant-hero {
+  text-align: center; }
+  .menu .restaurant-hero .card-img-overlay {
+    background: rgba(0, 0, 0, 0.5); }
+  .menu .restaurant-hero .card-title {
+    font-size: 3rem !important; }
+  .menu .restaurant-hero .card-title,
+  .menu .restaurant-hero .card-subtitle,
+  .menu .restaurant-hero .card-text {
+    color: #fff !important; }
+.menu .card {
+  border-radius: 0;
+  border: 0; }
+  .menu .card .card-img-overlay span {
+    color: #fff; }
+  .menu .card .card-img-overlay .card-rating {
+    font-family: "Oswald", sans-serif;
+    font-size: 1.75rem;
+    font-weight: 700;
+    margin-top: -0.25rem; }
+  .menu .card .card-img-overlay .card-reviews {
+    margin-left: 0.5rem; }
+  .menu .card .card-img-overlay .time {
+    color: #fff;
+    bottom: 0; }
+    .menu .card .card-img-overlay .time i {
+      color: #E4E4E4; }
+  .menu .card .card-block .cost {
+    font-family: "Oswald", sans-serif;
+    font-weight: 700; }
+  .menu .card .card-title {
+    color: #222222;
+    font-size: 1.125rem;
+    letter-spacing: normal; }
+    .menu .card .card-title span {
+      color: #B2B2B2;
+      font-size: 2em; }
+  .menu .card .card-subtitle {
+    font-family: "Varela Round", sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: normal; }
+    .menu .card .card-subtitle span {
+      font-family: "Oswald", sans-serif;
+      font-weight: 700; }
+.menu .filters {
+  background: #F2F2F2;
+  height: 100%;
+  padding-top: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  border-right: 1px solid #eee;
+  font-size: 0.75em; }
+.menu h2 {
+  text-transform: uppercase; }
+.menu h4 {
+  color: #B2B2B2;
+  font-family: "Varela Round", sans-serif;
+  font-size: 0.75rem;
+  font-weight: 300; }
+
+.rating {
+  float: left; }
+  .rating:not(:checked) > input {
+    position: absolute;
+    top: -9999px;
+    clip: rect(0, 0, 0, 0); }
+  .rating:not(:checked) > label {
+    font-family: 'icomoon';
+    float: right;
+    width: 1.7rem;
+    padding: 0 .1rem;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 180%;
+    line-height: 1.2;
+    color: #ddd; }
+    .rating:not(:checked) > label:before {
+      content: '\e931 '; }
+  .rating:not(:checked) > label:hover {
+    color: gold; }
+    .rating:not(:checked) > label:hover ~ label {
+      color: gold; }
+  .rating > input:checked ~ label {
+    color: #FFCB3C; }
+  .rating > input:checked + label:hover,
+  .rating > input:checked ~ label:hover {
+    color: #FFCB3C; }
+    .rating > input:checked + label:hover ~ label,
+    .rating > input:checked ~ label:hover ~ label {
       color: #FFCB3C; }
-      .restaurants-list .reviews label:before {
-        content: '\e931 '; }
+  .rating > label:hover ~ input:checked ~ label {
+    color: #FFCB3C; }
+  .rating > label:active {
+    position: relative;
+    top: 2px;
+    left: 2px; }
+
+.reviews {
+  float: left; }
+  .reviews label {
+    font-family: 'icomoon';
+    float: right;
+    width: 2.4rem;
+    padding: 0 .5rem;
+    overflow: hidden;
+    white-space: nowrap;
+    cursor: pointer;
+    font-size: 160%;
+    line-height: 1.2;
+    color: #FFCB3C; }
+    .reviews label:before {
+      content: '\e931 '; }
 
 /*! =========================================================
  * bootstrap-slider.js

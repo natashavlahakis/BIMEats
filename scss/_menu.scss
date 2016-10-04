@@ -1,22 +1,17 @@
-.restaurants-list {
-  /* Hide for mobile, show later */
-   .filters {
-    background: $gray-lightest;
-    height: 100%;
-    padding-top: 2rem;
-    padding-left: 2rem;
-    padding-right: 2rem;
-    border-right: 1px solid #eee;
-    font-size: 0.75em;
-  }
-  h2 {
-    text-transform: uppercase;
-  }
-  h4 {
-    color: $gray-light;
-    font-family: "Varela Round", sans-serif;
-    font-size: 0.75rem;
-    font-weight: 300;
+.menu {
+  .restaurant-hero {
+    text-align: center;
+    .card-img-overlay {
+      background: rgba(0, 0, 0, 0.5);
+    }
+    .card-title {
+      font-size: 3rem!important;
+    }
+    .card-title,
+    .card-subtitle,
+    .card-text {
+      color: #fff!important;
+    }
   }
   .card {
     border-radius: 0;
@@ -42,6 +37,12 @@
         }
       }
     }
+    .card-block {
+      .cost {
+        font-family: "Oswald", sans-serif;
+        font-weight: 700;
+      }
+    }
     .card-title {
       color: $gray-dark;
       font-size: 1.125rem;
@@ -62,5 +63,25 @@
       }
     }
   }
-  @media (min-width: 768px) {}
+  .filters {
+    background: $gray-lightest;
+    height: 100%;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-right: 1px solid #eee;
+    font-size: 0.75em;
+  }
+  h2 {
+    text-transform: uppercase;
+  }
+  h4 {
+    color: $gray-light;
+    font-family: "Varela Round", sans-serif;
+    font-size: 0.75rem;
+    font-weight: 300;
+  }
+  @media (min-width: 768px) {
+    
+  }
 }
