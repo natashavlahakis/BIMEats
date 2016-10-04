@@ -27,17 +27,18 @@
           clip: rect(0, 0, 0, 0);
         }
         label {
+          font-family: 'icomoon';
           float: right;
-          width: 1em;
-          padding: 0 .1em;
+          width: 1.7rem;
+          padding: 0 .1rem;
           overflow: hidden;
           white-space: nowrap;
           cursor: pointer;
-          font-size: 200%;
+          font-size: 180%;
           line-height: 1.2;
           color: #ddd;
           &:before {
-            content: '★ ';
+            content: '\e931 ';
           }
         }
       }
@@ -76,6 +77,27 @@
   .card {
     border-radius: 0;
     border: 0;
+    .card-img-overlay {
+      span {
+        color: #fff;
+      }
+      .card-rating {
+        font-family: "Oswald", sans-serif;
+        font-size: 1.75rem;
+        font-weight: 700;
+        margin-top: -0.25rem;
+      }
+      .card-reviews {
+        margin-left: 0.5rem;
+      }
+      .time {
+        color: #fff;
+        bottom: 0;
+        i {
+          color: $gray-lighter;
+        }
+      }
+    }
     .card-title {
       color: $gray-dark;
       font-size: 1.125rem;
@@ -93,6 +115,24 @@
       span {
         font-family: "Oswald", sans-serif;
         font-weight: 700;
+      }
+    }
+  }
+  .reviews {
+    float: left;
+    label {
+      font-family: 'icomoon';
+      float: right;
+      width: 2.4rem;
+      padding: 0 .5rem;
+      overflow: hidden;
+      white-space: nowrap;
+      cursor: pointer;
+      font-size: 160%;
+      line-height: 1.2;
+      color: $brand-warning;
+      &:before {
+        content: '\e931 ';
       }
     }
   }
