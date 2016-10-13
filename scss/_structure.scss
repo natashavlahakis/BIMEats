@@ -1,3 +1,86 @@
 .bg-white {
   background-color: #fff;
 }
+
+.navigation {
+  @extend .navbar;
+  @extend .navbar-light;
+  //@extend .navbar-static-top;
+  @extend .bg-white;
+}
+
+.footer {
+  @extend .container-fluid;
+  @extend .bg-primary;
+  .copyright {
+    @extend .col-xs-6;
+    @extend .col-sm-3;
+    @extend .col-md-4;
+    @extend .p-l-2;
+  }
+  .faqs {
+    @extend .hidden-xs-down;
+    @extend .col-sm-7;
+    @extend .col-md-6;
+  }
+  .social {
+    @extend .col-xs-6;
+    @extend .col-sm-2;
+    @extend .col-md-2;
+    @extend .p-r-3;
+  }
+}
+
+.sidebar {
+  @extend .col-sm-3;
+  @extend .col-md-2;
+  .side-menu {
+    @extend .nav;
+    @extend .nav-pills;
+    @extend .nav-stacked;
+    @extend .hidden-sm-down;
+  }
+  .side-menu-mobile {
+    @extend .nav;
+    @extend .nav-pills;
+    @extend .hidden-md-up;
+  }
+}
+
+.profile,
+.orders,
+.payments,
+.addresses,
+.restaurants,
+.menu {
+  @extend .container-fluid;
+}
+
+
+/* Main content */
+
+.main {
+  @extend .col-sm-9;
+  @extend .offset-sm-3;
+  @extend .col-md-10;
+  @extend .offset-md-2;
+  padding: 20px;
+  background: #e4e4e4;
+  min-height: calc(100vh - 6.1rem);
+  @media (min-width: 768px) {
+    padding-right: 40px;
+    padding-left: 40px;
+  }
+}
+
+.profile,
+.orders,
+.payments,
+.addresses {
+  .main {
+    //top: 65px;
+  }
+  .sidebar {
+    //top: 59px;
+  }
+}

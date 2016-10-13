@@ -1,17 +1,24 @@
-// Grayscale and brand colors for use across Bootstrap.
-$gray-dark: #222222;
-$gray: #707070;
-$gray-light: #B2B2B2;
-$gray-lighter: #E4E4E4;
-$gray-lightest: #F2F2F2;
-$brand-primary: #1F4BA5;
-$brand-success: #5cb85c;
-$brand-info: #5bc0de;
-$brand-warning: #FFCB3C;
-$brand-danger: #FE4F20;
-$brand-inverse: $gray-dark;
 body {
   padding-top: 60px;
+}
+
+
+/* Responsive typography */
+
+html {
+  font-size: 0.875rem;
+}
+
+@media (min-width: 544px) and (max-width: 767px) {
+  html {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 1.125rem;
+  }
 }
 
 .h5,
@@ -27,19 +34,7 @@ h6 {
 }
 
 
-/*
- * Navbar
- */
-
-.navbar {
-  border-radius: 0;
-  border-bottom: 1px solid $gray-lighter;
-}
-
-
-/*
- * Display
- */
+/* Display */
 
 .display-1,
 .display-2,
@@ -49,9 +44,22 @@ h6 {
 }
 
 
-/*
- * Forms
- */
+/* Navbar */
+
+.navbar {
+  border-radius: 0;
+  border-bottom: 1px solid $gray-lighter;
+  .nav-item {
+    font-size: 1.5rem;
+  }
+}
+
+.navbar-toggler {
+  color: $gray-light;
+}
+
+
+/* Forms */
 
 .form-control {
   background-color: $gray-lightest;

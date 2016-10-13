@@ -36,17 +36,17 @@ serif;
 //$font-family-base:       $font-family-sans-serif;
 // Pixel value used to responsively scale all typography. Applied to the `<html>` element.
 //$font-size-root: 16px;
-$font-size-base: 1.125rem;
-$font-size-lg: 1.5rem;
-$font-size-sm: 1rem;
-$font-size-xs: .875rem;
-$line-height-base: 1.5;
-$font-size-h1: 4rem;
-$font-size-h2: 3rem;
-$font-size-h3: 2.25rem;
-$font-size-h4: 1.875rem;
-$font-size-h5: 1.5rem;
-$font-size-h6: 1.125rem;
+$font-size-base: 1.125rem;  // 18px
+$font-size-lg: 1.5rem;      // 24px
+$font-size-sm: 1rem;        // 16px
+$font-size-xs: .875rem;     // 14px
+$line-height-base: 1.5;     // 24px
+$font-size-h1: 4rem;        // 64px
+$font-size-h2: 3rem;        // 48px
+$font-size-h3: 2.25rem;     // 36px
+$font-size-h4: 1.875rem;    // 30px
+$font-size-h5: 1.5rem;      // 24px
+$font-size-h6: 1.125rem;    // 18px
 $display1-size: 4rem;
 $display2-size: 3rem;
 $display3-size: 2.25rem;

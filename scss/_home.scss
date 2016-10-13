@@ -1,61 +1,68 @@
-/*
- * Search
- */
-
-.search {
-  background-color: #ccc;
-  background-image: url(../i/hero.jpg);
-  background-size: cover;
-  border-radius: 0;
-  color: #fff;
-  margin-bottom: 0;
-}
-
-
-/*
- * Download
- */
-
-.download {
-  background-color: #fff;
-}
-
-.app-preview {
-  display: block;
-  margin-bottom: -70px;
-  overflow: hidden;
-}
-
-.button {
-  display: inline-block;
-}
-
-.buy {
-  background-image: url(../i/spritesheet.png);
-  background-repeat: no-repeat;
-  display: block;
-}
-
-.appstore {
-  width: 135px;
-  height: 40px;
-  background-position: -5px -5px;
-}
-
-.googleplay {
-  width: 126px;
-  height: 40px;
-  background-position: -5px -55px;
-}
-
-
-/*
- * Display
- */
-
-.display-1,
-.display-2,
-.display-3,
-.display-4 {
-  font-family: "Varela Round", sans-serif;
+.home {
+  .search,
+  .download {
+    @extend .jumbotron;
+    border-radius: 0;
+    margin-bottom: 0;
+  }
+  /* Search */
+  .search {
+    background-color: #ccc;
+    background-image: url(../i/hero.jpg);
+    background-size: cover;
+    color: #fff;
+    .ordernow-content {
+      @extend .row;
+      .ordernow-text {
+        @extend .col-md-5;
+        @extend .offset-md-7;
+      }
+      .ordernow-form {
+        @extend .form-inline;
+      }
+    }
+  }
+  /*  Download */
+  .download {
+    background-color: #fff;
+    @media (min-width: 544px) and (max-width: 767px) {
+      //margin-bottom: 12rem;
+    }
+    @media (min-width: 768px) {
+      margin-bottom: 16rem;
+    }
+    .downloadapp-content {
+      .downloadapp-text {
+        @extend .col-md-6;
+      }
+      .downloadapp-img {
+        @extend .col-md-4;
+        @extend .offset-md-2;
+        //overflow: hidden;
+      }
+    }
+    .app-preview {
+      display: block;
+      margin-bottom: -70px;
+      overflow: hidden;
+    }
+    .button {
+      display: inline-block;
+    }
+    .buy {
+      background-image: url(../i/spritesheet.png);
+      background-repeat: no-repeat;
+      display: block;
+    }
+    .appstore {
+      width: 135px;
+      height: 40px;
+      background-position: -5px -5px;
+    }
+    .googleplay {
+      width: 126px;
+      height: 40px;
+      background-position: -5px -55px;
+    }
+  }
 }

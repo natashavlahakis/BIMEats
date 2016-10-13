@@ -6,15 +6,36 @@
 /* Hide for mobile, show later */
 
 .sidebar {
-  display: none;
-}
-
-@media (min-width: 768px) {
-  .sidebar {
-    position: fixed;
-    top: 51px;
-    bottom: 0;
-    left: 0;
+  //top: 51px;
+  //bottom: 0;
+  left: 0;
+  border-right: none;
+  .side-menu-mobile .nav-item + .nav-item {
+    margin-left: 0;
+  }
+  .nav-pills {
+    .nav-link.active,
+    .nav-link.active:focus,
+    .nav-link.active:hover,
+    .nav-item.open .nav-link,
+    .nav-item.open .nav-link:focus,
+    .nav-item.open .nav-link:hover {
+      //border-bottom: 10px solid yellow;
+    }
+    .nav-link {
+      border-right: 1px solid $gray-lightest;
+      padding: 1.2em 0.375em;
+      font-size: 0.875rem;
+      &:last-child {
+        border-right: none;
+      }
+    }
+  }
+  @media (min-width: 768px) {
+    border-right: 1px solid #eee;
+    top: 71px;
+    bottom: auto;
+    left: auto;
     z-index: 900;
     display: block;
     padding-top: 3px;
@@ -22,36 +43,63 @@
     padding-right: 0px;
     overflow-x: hidden;
     overflow-y: auto;
-    /* Scrollable contents if viewport is shorter than content. */
-    border-right: 1px solid #eee;
+    position: fixed;
+    .nav-stacked .nav-item + .nav-item {
+      margin-top: 0px;
+    }
+    .nav-pills {
+      .nav-link.active,
+      .nav-link.active:focus,
+      .nav-link.active:hover,
+      .nav-item.open .nav-link,
+      .nav-item.open .nav-link:focus,
+      .nav-item.open .nav-link:hover {
+        border-right: 10px solid yellow;
+      }
+      .nav-link {
+        border-bottom: 1px solid $gray-lightest;
+        padding: 1.2em 2em;
+      }
+      .nav-item a {
+        color: $gray-dark;
+      }
+    }
   }
 }
 
 
-/*
- * Main content
- */
+/* Profile */
 
-.main {
-  padding: 20px;
-  background: #e4e4e4;
-  min-height: calc(100vh - 7rem);
-}
-
-@media (min-width: 768px) {
-  .main {
-    padding-right: 40px;
-    padding-left: 40px;
-  }
-}
-
-
-/*
- * Address
- */
-
-.address {
+.profile-details {
+  @extend .container;
   background: #fff;
+  .page-title {
+    @extend .col-xs-12;
+    @extend .p-l-3;
+    @extend .p-t-3;
+    h2 {
+      color: $brand-primary;
+      font-family: 'Oswald', sans-serif;
+      text-transform: uppercase;
+    }
+  }
+  .details {
+    @extend .col-md-8;
+    @extend .p-a-3;
+  }
+  .photo {
+    @extend .col-xs-6;
+    @extend .col-md-4;
+    @extend .p-a-3;
+  }
+}
+
+
+/* Address */
+
+.address-details {
+  background: #fff;
+  @extend .container;
   p {
     color: $gray;
   }
@@ -66,22 +114,28 @@
 }
 
 
-/*
- * Payments
- */
+/* Payments */
 
-.payments {
+.payment-details {
+  @extend .container;
+  background: #fff;
   .media-object {
     border: 2px solid $gray-lighter;
+  }
+  h2 {
+    color: $brand-primary;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
   }
 }
 
 
-/*
- * Orders
- */
+/* Orders */
 
-.orders {
+.order-details {
+  @extend .container;
+  @extend .m-y-2;
+  @extend .p-x-0;
   background: #fff;
   thead {
     &.thead-default th {
@@ -99,30 +153,4 @@
       font-weight: 400;
     }
   }
-}
-
-
-/*
- * Nav Pills
- */
-
-.nav-stacked .nav-item + .nav-item {
-  margin-top: 0px;
-}
-
-.nav-pills .nav-link.active,
-.nav-pills .nav-link.active:focus,
-.nav-pills .nav-link.active:hover,
-.nav-pills .nav-item.open .nav-link,
-.nav-pills .nav-item.open .nav-link:focus,
-.nav-pills .nav-item.open .nav-link:hover {
-  border-right: 10px solid yellow;
-}
-
-.nav-pills .nav-link {
-  border-bottom: 1px solid $gray-lightest;
-}
-
-.nav-item a {
-  color: $gray-dark;
 }
