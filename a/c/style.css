@@ -4909,7 +4909,11 @@ body {
     .home .download .app-preview {
       display: block;
       margin-bottom: -70px;
-      overflow: hidden; }
+      overflow: hidden;
+      width: 240px; }
+      @media (min-width: 768px) {
+        .home .download .app-preview {
+          width: 300px; } }
     .home .download .button {
       display: inline-block; }
     .home .download .buy {
