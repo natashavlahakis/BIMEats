@@ -9,6 +9,8 @@
   //top: 51px;
   //bottom: 0;
   left: 0;
+  padding-left: 0;
+  padding-right: 0;
   border-right: none;
   .side-menu-mobile .nav-item + .nav-item {
     margin-left: 0;
@@ -24,8 +26,8 @@
     }
     .nav-link {
       border-right: 1px solid $gray-lightest;
-      padding: 1.2em 0.375em;
-      font-size: 0.875rem;
+      padding: 0.95em 0.95em;
+      font-size: 1.5rem;
       &:last-child {
         border-right: none;
       }
@@ -36,6 +38,8 @@
     top: 71px;
     bottom: auto;
     left: auto;
+    padding-left: auto;
+    padding-right: inherit;
     z-index: 900;
     display: block;
     padding-top: 3px;
@@ -59,6 +63,7 @@
       .nav-link {
         border-bottom: 1px solid $gray-lightest;
         padding: 1.2em 2em;
+        font-size: inherit;
       }
       .nav-item a {
         color: $gray-dark;
@@ -126,6 +131,9 @@
     color: $brand-primary;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
+  }
+  i {
+    color: $gray-light;
   }
 }
 
