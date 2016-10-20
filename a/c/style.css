@@ -5198,6 +5198,7 @@ body {
 .menu .restaurant-hero {
   text-align: center; }
   .menu .restaurant-hero .card-img-overlay {
+    bottom: 0;
     background: rgba(0, 0, 0, 0.5); }
   .menu .restaurant-hero .card-title {
     font-size: 3rem !important; }
@@ -5222,6 +5223,9 @@ body {
     bottom: 0; }
     .menu .card .card-img-overlay .time i {
       color: #E4E4E4; }
+  @media (min-width: 768px) {
+    .menu .card .card-block {
+      min-height: 240px; } }
   .menu .card .card-block .cost {
     font-family: "Oswald", sans-serif;
     font-weight: 700; }

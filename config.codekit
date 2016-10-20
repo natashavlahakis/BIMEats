@@ -209,6 +209,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/a\/i\/fish.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141585,
+		"inputAbbreviatedPath": "\/a\/i\/fish.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/fish.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/a\/i\/hero-driver.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -253,6 +264,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/a\/i\/mac_cheese.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 139226,
+		"inputAbbreviatedPath": "\/a\/i\/mac_cheese.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/mac_cheese.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/a\/i\/mastercard.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -264,6 +286,127 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/a\/i\/pork.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 152581,
+		"inputAbbreviatedPath": "\/a\/i\/pork.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/pork.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant-hero-lg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 306707,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant-hero-lg.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant-hero-lg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant-hero-sm.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 60370,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant-hero-sm.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant-hero-sm.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant1.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 133840,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant1.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant1.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant2.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 125873,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant2.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant2.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant3.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 100337,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant3.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant3.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant4.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 117201,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant4.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant4.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant5.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129122,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant5.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant5.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/restaurant6.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 129662,
+		"inputAbbreviatedPath": "\/a\/i\/restaurant6.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/restaurant6.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/salmon.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 111060,
+		"inputAbbreviatedPath": "\/a\/i\/salmon.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/salmon.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/shrimp.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 189687,
+		"inputAbbreviatedPath": "\/a\/i\/shrimp.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/shrimp.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/a\/i\/spritesheet.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -271,6 +414,17 @@
 		"initialSize": 7634,
 		"inputAbbreviatedPath": "\/a\/i\/spritesheet.png",
 		"outputAbbreviatedPath": "\/a\/i\/spritesheet.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/a\/i\/steak.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 137468,
+		"inputAbbreviatedPath": "\/a\/i\/steak.jpg",
+		"outputAbbreviatedPath": "\/a\/i\/steak.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

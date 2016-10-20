@@ -2,6 +2,7 @@
   .restaurant-hero {
     text-align: center;
     .card-img-overlay {
+      bottom: 0;
       background: rgba(0, 0, 0, 0.5);
     }
     .card-title {
@@ -38,6 +39,9 @@
       }
     }
     .card-block {
+      @media (min-width: 768px) {
+        min-height: 240px;
+      }
       .cost {
         font-family: "Oswald", sans-serif;
         font-weight: 700;
@@ -81,7 +85,5 @@
     font-size: 0.75rem;
     font-weight: 300;
   }
-  @media (min-width: 768px) {
-    
-  }
+  @media (min-width: 768px) {}
 }
