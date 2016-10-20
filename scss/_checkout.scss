@@ -17,6 +17,14 @@
   dt {
     color: $gray-light;
   }
+  .payment-type-mobile {
+    .btn {
+      border-radius: 0.75rem;
+    }
+    label {
+      margin-bottom: 0;
+    }
+  }
   .total {
     h3 {
       color: $gray-light;

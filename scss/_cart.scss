@@ -32,10 +32,24 @@
       color: $gray-light;
     }
   }
-  .media-heading {
-    color: $gray-dark;
+  .media {
+    .media-heading {
+      @extend .small;
+      color: $gray-dark;
+      width: 200px;
+    }
+    .media-description {
+      @extend .small;
+    }
+    @media (min-width: 768px) {
+      width: auto;
+    }
   }
   .total {
+    margin-top: 1rem;
+    @media (min-width: 768px) {
+      margin-top: auto;
+    }
     h3 {
       color: $gray-light;
       font-family: "PT Serif", serif;

@@ -1,124 +1,136 @@
 <!-- @import "../_structure/head.kit" -->
-  
-  <!-- @import "../_includes/site-header.kit" -->
 
-  <!-- Begin page content -->
-  <main class="checkout">
-    <div class="container narrow m-y-3">
-      <h1 class="display-3 text-xs-center">Checkout</h1>
-      <div class="m-y-3">
-        <form>
-          <div class="form-group row">
-            <div class="col-sm-6">
-              <label for="inputFirstname" class="col-form-label">First name</label>
-              <input class="form-control" type="text" placeholder="John Doe" id="inputFirstname">
-            </div>
-            <div class="col-sm-6">
-              <label for="inputLastname" class="col-form-label">Last name</label>
-              <input class="form-control" type="text" placeholder="John Doe" id="inputLasttname">
-            </div>
+<!-- @import "../_includes/site-header.kit" -->
+
+<!-- Begin page content -->
+<main class="checkout">
+  <div class="container narrow m-y-3">
+    <h1 class="display-3 text-xs-center">Checkout</h1>
+    <div class="m-y-3">
+      <form>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <label for="inputFirstname" class="col-form-label">First name</label>
+            <input class="form-control" type="text" placeholder="John Doe" id="inputFirstname">
           </div>
-          <div class="form-group row">
-            <div class="col-sm-6">
-              <label for="inputPhone" class="col-form-label">Phone number</label>
-              <input class="form-control" type="text" placeholder="123-456-7890" id="inputPhone">
-            </div>
-            <div class="col-sm-6">
-              <label for="inputEmail3" class="col-form-label">Email address</label>
-              <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-sm-6">
-              <label for="countrySelect">Country</label>
-              <select id="countrySelect" class="form-control">
-                <option>Barbados</option>
-                <option>Trinidad and Tobago</option>
-                <option>St. Lucia</option>
-              </select>
-            </div>
-            <div class="col-sm-6">
-              <label for="citySelect">Country</label>
-              <select id="citySelect" class="form-control">
-                <option>Christ Church</option>
-                <option>St. Michael</option>
-                <option>St. Phillip</option>
-                <option>St. James</option>
-              </select>
-            </div>
-          </div>
-          <div class="form-group row">
-            <div class="col-sm-6">
-              <label for="addressTextarea">Address</label>
-              <textarea class="form-control" id="addressTextarea" rows="4"></textarea>
-            </div>
-            <div class="col-sm-2">
-              <label for="inputZipcode" class="col-form-label">Zip Code</label>
-              <input type="text" class="form-control" id="inputZipcode" placeholder="12345">
-            </div>
-          </div>
-        </form>
-      </div>
-      <h1 class="display-3 text-xs-center">Payment</h1>
-      <div class="m-y-3">
-        <div class="m-x-auto m-y-2" style="width: 470px;">
-          <div class="btn-group" data-toggle="buttons">
-            <label class="btn btn-primary active">
-              <input type="radio" name="options" id="mastercard" checked> MasterCard
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="visa"> Visa
-            </label>
-            <label class="btn btn-primary">
-              <input type="radio" name="options" id="cos"> COD
-            </label>
+          <div class="col-sm-6">
+            <label for="inputLastname" class="col-form-label">Last name</label>
+            <input class="form-control" type="text" placeholder="John Doe" id="inputLasttname">
           </div>
         </div>
-        <form>
-          <div class="form-group row">
-            <div class="col-sm-6">
-              <label for="inputCardholder" class="col-form-label">Cardholder name</label>
-              <input class="form-control" type="text" placeholder="John Doe" id="inputCardholder">
-            </div>
-            <div class="col-sm-6">
-              <label for="inputCardnumber" class="col-form-label">Card number</label>
-              <input type="text" class="form-control" id="inputCardnumber" placeholder="1234 5678 9100 0000">
-            </div>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <label for="inputPhone" class="col-form-label">Phone number</label>
+            <input class="form-control" type="text" placeholder="123-456-7890" id="inputPhone">
           </div>
-          <div class="form-group row">
-            <div class="col-sm-6">
-              <label for="cityExpiration">Expiration date</label>
-              <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
-            </div>
-            <div class="col-sm-3">
-              <label for="inputCvv" class="col-form-label">CVV</label>
-              <input type="text" class="form-control" id="inputCvv" placeholder="123">
-            </div>
+          <div class="col-sm-6">
+            <label for="inputEmail3" class="col-form-label">Email address</label>
+            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
           </div>
-        </form>
-      </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <label for="countrySelect">Country</label>
+            <select id="countrySelect" class="form-control">
+              <option>Barbados</option>
+              <option>Trinidad and Tobago</option>
+              <option>St. Lucia</option>
+            </select>
+          </div>
+          <div class="col-sm-6">
+            <label for="citySelect">Country</label>
+            <select id="citySelect" class="form-control">
+              <option>Christ Church</option>
+              <option>St. Michael</option>
+              <option>St. Phillip</option>
+              <option>St. James</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <label for="addressTextarea">Address</label>
+            <textarea class="form-control" id="addressTextarea" rows="4"></textarea>
+          </div>
+          <div class="col-sm-2">
+            <label for="inputZipcode" class="col-form-label">Zip Code</label>
+            <input type="text" class="form-control" id="inputZipcode" placeholder="12345">
+          </div>
+        </div>
+      </form>
     </div>
-    
-    <div class="container">
-      <h1 class="display-3 text-xs-center">Confirmation</h1>
-      <div class="row m-y-3">
-        <div class="col-sm-6">
-          <h2 class="h6">Delivery</h2>
-          <dl class="row">
-            <dt class="col-sm-1"><i class="icon-velo-bike"></i></dt>
-            <dd class="col-sm-11">Express delivery - <span>$35</span></dd>
-            <dt class="col-sm-1"><i class="icon-map-marker"></i></dt>
-            <dd class="col-sm-11">Komol Kuchkarov
-              <br> Chilanzar 26, d. 25, kv. 17, Tashkent, 100 131</dd>
-          </dl>
-          <h2 class="h6">Payment</h2>
-          <dl class="row">
-            <dt class="col-sm-1"><i class="icon-credit-card"></i></dt>
-            <dd class="col-sm-11">Visa xxxx xxxx xxxx 3734</dd>
-          </dl>
+    <h1 class="display-3 text-xs-center">Payment</h1>
+    <div class="m-y-3">
+      <div class="m-x-auto m-y-2">
+        <div class="payment-type btn-group hidden-xs-down" data-toggle="buttons">
+          <label class="btn btn-primary active">
+            <input type="radio" name="options" id="mastercard" checked> MasterCard
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="visa"> Visa
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="cos"> COD
+          </label>
         </div>
-        <div class=" col-sm-6 ">
-          <h2 class="h6">Cart</h2>
+        <div class="payment-type-mobile btn-group-vertical hidden-sm-up w-100" data-toggle="buttons">
+          <label class="btn btn-primary active">
+            <input type="radio" name="options" id="mastercard" checked> MasterCard
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="visa"> Visa
+          </label>
+          <label class="btn btn-primary">
+            <input type="radio" name="options" id="cos"> COD
+          </label>
+        </div>
+      </div>
+      <form>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <label for="inputCardholder" class="col-form-label">Cardholder name</label>
+            <input class="form-control" type="text" placeholder="John Doe" id="inputCardholder">
+          </div>
+          <div class="col-sm-6">
+            <label for="inputCardnumber" class="col-form-label">Card number</label>
+            <input type="text" class="form-control" id="inputCardnumber" placeholder="1234 5678 9100 0000">
+          </div>
+        </div>
+        <div class="form-group row">
+          <div class="col-sm-6">
+            <label for="cityExpiration">Expiration date</label>
+            <input class="form-control" id="date" name="date" placeholder="MM/DD/YYY" type="text" />
+          </div>
+          <div class="col-sm-3">
+            <label for="inputCvv" class="col-form-label">CVV</label>
+            <input type="text" class="form-control" id="inputCvv" placeholder="123">
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <div class="container">
+    <h1 class="display-3 text-xs-center">Confirmation</h1>
+    <div class="row m-y-3">
+      <div class="col-sm-6">
+        <h2 class="h6">Delivery</h2>
+        <dl class="row">
+          <dt class="col-sm-1"><i class="icon-velo-bike"></i></dt>
+          <dd class="col-sm-11">Express delivery - <span>$35</span></dd>
+          <dt class="col-sm-1"><i class="icon-map-marker"></i></dt>
+          <dd class="col-sm-11">Komol Kuchkarov
+            <br> Chilanzar 26, d. 25, kv. 17, Tashkent, 100 131</dd>
+        </dl>
+        <h2 class="h6">Payment</h2>
+        <dl class="row">
+          <dt class="col-sm-1"><i class="icon-credit-card"></i></dt>
+          <dd class="col-sm-11">Visa xxxx xxxx xxxx 3734</dd>
+        </dl>
+      </div>
+      <div class=" col-sm-6 ">
+        <h2 class="h6">Cart</h2>
+        <div class="table-responsive">
           <table class="table">
             <tbody>
               <tr>
@@ -143,19 +155,20 @@
           </table>
         </div>
       </div>
-      <div class="row m-y-3">
-        <div class="total col-md-3 offset-md-6">
-          <h3>Total: <small>$111</small></h3>
-        </div>
-        <div class="col-md-3">
-          <p class="text-sm-right">
-            <a href="checkout.html" role="button" class="btn btn-primary">Submit order</a>
-          </p>
-        </div>
+    </div>
+    <div class="row m-y-3 text-xs-center">
+      <div class="total col-md-3 offset-md-6">
+        <h3>Total: <small>$111</small></h3>
+      </div>
+      <div class="col-md-3">
+        <p class="text-sm-right">
+          <a href="checkout.html" role="button" class="btn btn-primary">Submit order</a>
+        </p>
       </div>
     </div>
-  </main>
+  </div>
+</main>
 
-  <!-- @import "../_includes/site-footer.kit" -->
+<!-- @import "../_includes/site-footer.kit" -->
 
 <!-- @import "../_structure/foot.kit" -->

@@ -1,96 +1,96 @@
 <!-- @import "../_structure/head.kit" -->
-  
-  <!-- @import "../_includes/site-header.kit" -->
 
-  <!-- Begin page content -->
-  <main class="cart">
-    <div class="container m-y-3">
-      <button type="button" class="btn btn-outline-primary pull-md-right">Continue shopping</button>
-      <h1 class="display-4">Your cart</h1>
-    </div>
-    
-    <div class="container m-y-3">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Product</th>
-            <th>Size</th>
-            <th>Price</th>
-            <th>Amount</th>
-            <th>Cost</th>
-            <th></th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">
-              <div class="media">
-                <a class="media-left" href="#">
-                  <img class="media-object" src="http://lorempixel.com/output/food-q-c-100-100-3.jpg" alt="Generic placeholder image">
-                </a>
-                <div class="media-body">
-                  <h2 class="small media-heading">Napoleon of Alaskan King Crab</h2>
-                  <p class="small media-description">Le Napoleon de Crabe de l Alaska et Avocat , Petite Herbettes Sauvages</p>
-                </div>
+<!-- @import "../_includes/site-header.kit" -->
+
+<!-- Begin page content -->
+<main class="cart">
+  <div class="container m-y-3 text-xs-center">
+    <h1 class="display-4">Your cart</h1>
+    <button type="button" class="btn btn-outline-primary pull-md-right">Continue shopping</button>
+  </div>
+
+  <div class="container table-responsive m-y-3">
+    <table class="table">
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Size</th>
+          <th>Price</th>
+          <th>Amount</th>
+          <th>Cost</th>
+          <th></th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">
+            <div class="media">
+              <span class="media-left hidden-sm-down">
+                <img class="media-object" src="http://lorempixel.com/output/food-q-c-100-100-3.jpg" alt="Generic placeholder image">
+              </span>
+              <div class="media-body">
+                <h2 class="media-heading">Napoleon of Alaskan King Crab</h2>
+                <p class="media-description">Le Napoleon de Crabe de l Alaska et Avocat , Petite Herbettes Sauvages</p>
               </div>
-            </th>
-            <td class="size">M</td>
-            <td class="price">26</td>
-            <td class="amount">
-              <form>
-                <div class="form-group">
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="2">
-                </div>
-              </form>
-            </td>
-            <td class="cost">$52</td>
-            <td class="delete"><i class="icon-cancel"></i></td>
-          </tr>
-          <tr>
-            <th scope="row">
-              <div class="media">
-                <a class="media-left" href="#">
-                  <img class="media-object" src="http://lorempixel.com/output/food-q-c-100-100-2.jpg" alt="Generic placeholder image">
-                </a>
-                <div class="media-body">
-                  <h2 class="small media-heading">Smoked Salmon</h2>
-                  <p class="small media-description">L'Assiette de Saumon Fumé et Petites Garnitures</p>
-                </div>
+            </div>
+          </th>
+          <td class="size">M</td>
+          <td class="price">26</td>
+          <td class="amount">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="2">
               </div>
-            </th>
-            <td class="size">S</td>
-            <td class="price">24</td>
-            <td class="amount">
-              <form>
-                <div class="form-group">
-                  <input type="text" class="form-control" id="formGroupExampleInput" placeholder="1">
-                </div>
-              </form>
-            </td>
-            <td class="cost">$24</td>
-            <td class="delete"><i class="icon-cancel"></i></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
-    
-    <div class="container m-y-3">
-      <div class="row">
-        <div class="col-md-2">
-          <form>
-            <input type="text" class="form-control" placeholder="Promo code">
-          </form>
-        </div>
-        <div class="total col-md-3 offset-md-5">
-          <h3>Total: <small>$76</small></h3>
-        </div>
-        <div class="col-md-2">
-          <a href="checkout.html" role="button" class="btn btn-primary">Next step</a>
-        </div>
+            </form>
+          </td>
+          <td class="cost">$52</td>
+          <td class="delete"><i class="icon-cancel"></i></td>
+        </tr>
+        <tr>
+          <th scope="row">
+            <div class="media">
+              <span class="media-left hidden-sm-down">
+                <img class="media-object" src="http://lorempixel.com/output/food-q-c-100-100-2.jpg" alt="Generic placeholder image">
+              </span>
+              <div class="media-body">
+                <h2 class="small media-heading">Smoked Salmon</h2>
+                <p class="small media-description">L'Assiette de Saumon Fumé et Petites Garnitures</p>
+              </div>
+            </div>
+          </th>
+          <td class="size">S</td>
+          <td class="price">24</td>
+          <td class="amount">
+            <form>
+              <div class="form-group">
+                <input type="text" class="form-control" id="formGroupExampleInput" placeholder="1">
+              </div>
+            </form>
+          </td>
+          <td class="cost">$24</td>
+          <td class="delete"><i class="icon-cancel"></i></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="container m-y-3 text-xs-center">
+    <div class="row">
+      <div class="col-md-2">
+        <form>
+          <input type="text" class="form-control" placeholder="Promo code">
+        </form>
+      </div>
+      <div class="total col-md-3 offset-md-5">
+        <h3>Total: <small>$76</small></h3>
+      </div>
+      <div class="col-md-2">
+        <a href="checkout.html" role="button" class="btn btn-primary">Next step</a>
       </div>
     </div>
-  </main>
+  </div>
+</main>
 
-  <!-- @import "../_includes/site-footer.kit" -->
+<!-- @import "../_includes/site-footer.kit" -->
 
 <!-- @import "../_structure/foot.kit" -->
