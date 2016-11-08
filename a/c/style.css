@@ -4916,9 +4916,6 @@ body {
     color: #fff; }
   .home .download {
     background-color: #fff; }
-    @media (min-width: 768px) {
-      .home .download {
-        margin-bottom: 16rem; } }
     .home .download .app-preview {
       display: block;
       margin-bottom: -70px;
